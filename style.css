@@ -1,0 +1,8 @@
+
+body {
+  position: relative; 
+  background-color: rgb(240,240,240);
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+  margin: 0;
+}
