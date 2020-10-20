@@ -60,7 +60,7 @@ body {
 /* = Landing Page "Summary & Visualization" formats */
 
 .title {
-  color: rgb(9, 211, 208);
+  color: rgb(0,170,170);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: bolder; 
 	padding-top: 17px;
@@ -121,6 +121,34 @@ body {
 	height:380px;
   float: top;
   position: center;
+}
+
+/* = Comparison and Data Page Formatting*/
+
+.comparison-title{
+	color: rgb(0, 169, 167);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bolder; 
+	padding-top: 14px;
+	padding-left: 100px;
+  font-size: 22px;
+}
+
+#comparison-box{
+  background-color: white;
+	box-shadow: 3px 5px 5px 3px gray;
+	width: 1080px;
+	height: auto;
+	font-family: Gill Sans, sans-serif;
+	margin-top: 50px; 
+	margin-bottom: 100px;
+	padding: 10px 60px 10px 60px;
+	border-radius: 4px;
+}
+
+#comparison-img{	
+	width:435px;
+	height:300px;
 }
 
 
