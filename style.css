@@ -6,3 +6,118 @@ body {
   background-blend-mode: lighten;
   margin: 0;
 }
+
+/* = Landing Page "Navigation Bar" */
+ 
+.navbar {
+	background-color: rgb(250, 253, 250);
+	height: 50px;
+	padding: inherit;}
+
+  
+#button-navagator {
+  display: flex;
+	width: 98px;
+	max-height: 58px;
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: rgb(0,170,170);
+	overflow: hidden;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-left: 70px;
+}
+
+#navbarDropdown {
+	overflow: hidden;
+	float:right;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+  text-decoration: none;
+}
+  
+#navbarRight{
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	float:right;
+  font-size: 16px;
+}
+  
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* = Landing Page "Summary & Visualization" formats */
+
+.title {
+  color: rgb(9, 211, 208);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bolder; 
+	padding-top: 17px;
+	font-size: 27px;
+}
+
+/* = Landing Page "Summary: Latitude vs X" box */
+
+#city-lat-img {
+  float: left;
+  width: 250px;
+  height: 200px;
+  position: center;
+}
+
+.sumbox {
+  margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+}
+
+/* = Landing Page "Visualization" Box */
+
+.visual_box {
+  margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+}
+
+#visual_img {
+  float: left;
+	width: 175px;
+  height: 125px;
+  position: center;
+}
+
+/* = Page Footer */
+	
+.footer {
+	position: fixed;
+	margin-bottom: 0;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: rgb(120, 123, 123);
+	text-align: center;
+	padding-top: 10px;
+	border-top-style: solid;
+	border-top-width: 5px; 
+	border-top-color: rgb(0, 169, 167);
+}
+
+#page-container {
+	position: fixed;
+}
