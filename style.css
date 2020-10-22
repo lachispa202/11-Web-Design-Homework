@@ -47,7 +47,7 @@ body {
 	float:right;
   font-size: 16px;
 }
-  
+
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -149,6 +149,34 @@ body {
 #comparison-img{	
 	width:435px;
 	height:300px;
+}
+
+#data-box {
+	background-color: white;
+	box-shadow: 3px 5px 5px 3px gray;
+	width: auto;
+	height: auto;
+	margin-top: 50px; 
+	margin-bottom: 100px;
+	padding: 10px 60px 10px 60px;
+	border-radius: 4px;
+}
+
+.table {
+	overflow-x: auto; 
+	overflow-y: auto;
+	max-height:470px; 
+	max-width: auto;
+	overflow: auto;
+	width: auto;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	border-collapse: collapse;
+}
+
+.table-layout {
+	table-layout: fixed;
+	width: 100%;
 }
 
 
